@@ -28,11 +28,43 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Assuming you have a class named 'table-container' for the div */
+.table-container {
+  height: 300px; /* Set the desired fixed height */
+  overflow: auto; /* Add a scroll bar when the content overflows the height */
 }
+
+/* Style for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Add other table styles as needed */
+}
+
+/* Style for table header cells */
+.table th {
+  background-color: #f2f2f2;
+  /* Add other styles for header cells */
+}
+
+/* Style for table rows */
+.table tr {
+  /* Add styles for rows */
+}
+
+/* Style for table data cells */
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  /* Add other styles for data cells */
+}
+
